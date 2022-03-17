@@ -1,0 +1,43 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Firebase Starter dev",
+			"request": "launch",
+			"type": "dart",
+			"args": [
+				"run",
+				"--flavor",
+				"dev",
+				"--web-port",
+				"5000"
+			]
+		},
+		{
+			"name": "Firebase Starter staging",
+			"request": "launch",
+			"type": "dart",
+			"args": [
+				"run",
+				"--flavor",
+				"staging"
+			]
+		},
+		{
+			"name": "Firebase Starter prod",
+			"request": "launch",
+			"type": "dart",
+			"args": [
+				"run",
+				"--flavor",
+				"prod"
+			]
+		},
+		{
+			"name": "Dart: Run all Tests",
+			"request": "launch",
+			"type": "dart",
+			"program": "./test/"
+		   }
+	]
+}
